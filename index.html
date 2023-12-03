@@ -375,7 +375,7 @@
               <h4 class="modal-title" id="exampleModalLabel">Contact Us</h4>
             </div>
             <div class="modal-body">
-              <form target="_blank" action="https://formsubmit.co/1f2dafd93cebef22a4c6ea5c03e72177" method="POST">
+              <form target="_blank" action="https://formsubmit.co/1f2dafd93cebef22a4c6ea5c03e72177" method="POST" id="fomr">
                 <div class="form-group">
                   <label for="Name">Name</label>
                   <input type="text" class="form-control" id="Name" placeholder="Name">
@@ -392,7 +392,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-success">Submit</button>
+              <button type="submit" class="btn btn-success" onclick='document.getElementById("fomr").submit();''>Submit</button>
             </div>
           </div>
         </div>
