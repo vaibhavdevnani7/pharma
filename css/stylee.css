@@ -1,0 +1,13 @@
+.logoimgm{
+    scale: 50%;
+}
+@media only screen and (max-width: 600px) {
+    .logoimg {
+        width: 100%;
+    }
+    .logoimgm{
+        scale: 80%;
+        width: 100%; 
+    }
+    /* CSS code for phone view */
+}
