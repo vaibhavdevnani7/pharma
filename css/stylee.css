@@ -25,7 +25,11 @@ body {
         width: 100%; 
     }
     .medsimg{
+        max-width: 120%; 
         scale: 100%;
+        width: 120%;
+        position: relative;
+        left: -10%;
     }
     .hero-section{
         display: flex;
