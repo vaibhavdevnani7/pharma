@@ -31,12 +31,16 @@ body {
         display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden; 
     }
     .heroimg{ 
         width: 650px;
     }
     h4{
-        font-size: 23px; 
+        font-size: 21px; 
+    }
+    h3{
+        font-size: 25px; 
     }
     /* CSS code for phone view */
 }
