@@ -46,5 +46,10 @@ body {
     h3{
         font-size: 25px; 
     }
+    .contact-us{
+        width: 120%;
+    left: -10%;
+    position: relative; 
+    }
     /* CSS code for phone view */
 }
